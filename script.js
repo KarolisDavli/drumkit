@@ -17,8 +17,3 @@ const keys = document.querySelectorAll('.drum');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
 window.addEventListener('keydown', playSound);
-
-// I learnt about custom html attributes
-
-// Removing class from dom element with 'transitioned' event listiter 
-//after elements transformation is complete
